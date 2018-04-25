@@ -1,0 +1,48 @@
+body {
+    font-family: "Dosis", sans-serif;
+    background-color: whitesmoke;
+    color : "#222222";
+}
+
+h1 {
+    font-size: 3em;
+    text-align: center;
+}
+
+p {
+    font-size: 1.4em;
+}
+
+.projects {
+    display: flex;
+}
+
+#cursor {
+  -webkit-animation: 1s blink step-end infinite;
+  animation: 1s blink step-end infinite;
+}
+
+@keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: black;
+  }
+}
+
+@-webkit-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: black;
+  }
+}
+
+.line { 
+    margin: 25px 0;
+    height: 1px;
+    background: black;
+    background: -webkit-gradient(linear, 0 0, 100% 0, from(whitesmoke), to(whitesmoke), color-stop(50%, #222222));
+}
