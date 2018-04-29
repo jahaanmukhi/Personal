@@ -9,8 +9,26 @@ h1 {
     text-align: center;
 }
 
+h2 {
+    text-align: center;
+    margin-top: -20px;
+}
+
+h3 {
+    text-align: center;
+}
+
 p {
     font-size: 1.4em;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.chart{
+    width: 150%;
 }
 
 .projects {
